@@ -6,7 +6,7 @@
 
 ### 🔑 Step 0: Prepare Your SSH Key
 
-Copy your key to your Linux home(WSL):
+Copy your key to your Linux home (from WSL):
 
 ```bash
 cp /mnt/c/Users/ASUS/Downloads/_mahbub_.pem.pem ~/.ssh/mahbub.pem
