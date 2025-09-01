@@ -6,7 +6,7 @@
 
 ### 🔑 Step 0: Prepare Your SSH Key
 
-Copy your key to your Linux home:
+Copy your key to your Linux home(WSL):
 
 ```bash
 cp /mnt/c/Users/ASUS/Downloads/_mahbub_.pem.pem ~/.ssh/mahbub.pem
@@ -56,9 +56,9 @@ systemctl status nginx
 ```
 
 You should see:
-
+```bash
 active (running)
-
+```
 
 ### 📝 Step 4: Create a Simple HTML Page
 
@@ -145,3 +145,12 @@ Go to your bucket → Permissions → Bucket policy, and add something like this
 3. Verify that your HTML page is displayed.
 
 > ✅ **Result:** Your static website is now live and publicly accessible via S3.
+
+
+---
+
+## 🙏 Thank You
+
+Your feedback and contributions are always welcome.  
+Happy hosting with AWS! 🚀
+
