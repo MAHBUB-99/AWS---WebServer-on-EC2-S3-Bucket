@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My EC2 Web Server</title>
+    <style>
+        /* Apply a gradient background to the entire page */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #000000, #7E0B4B);
+            color: white;
+        }
+
+        /* Container for content with slight transparency */
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px 60px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Hover effect on the container */
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 30px rgba(255,0,255,0.6);
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #ffffff, #ff0DB4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #fbb480;
+        }
+
+        /* Add hover effect for paragraph */
+        p:hover {
+            color: #9900ff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, World!</h1>
+        <p>This page is served from my EC2 instance!</p>
+    </div>
+</body>
+</html>
